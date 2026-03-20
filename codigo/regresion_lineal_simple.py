@@ -52,3 +52,8 @@ for col in cols:
     plt.plot(data[col], data['Sales'], 'ro')
     plt.title('Ventas respecto a la publicidad en %s' %col)
     plt.show()
+
+#Creando el modelo
+
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
